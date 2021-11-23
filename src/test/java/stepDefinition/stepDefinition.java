@@ -36,6 +36,11 @@ public class stepDefinition {
 	    public void cards_are_displayed() throws Throwable
 	    {
 	    	System.out.println("All cards are displayed");
+	    	
+	    	System.out.println("All cards are displayed again");
+	    	
+	    	
+	    	System.out.println("All cards are displayed againm2");
 	    }
 	    
 	    @When("^User login into application with following details$")
