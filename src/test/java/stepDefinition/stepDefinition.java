@@ -37,6 +37,8 @@ public class stepDefinition {
 	    public void home_page_is_populated() throws Throwable
 	    {
 	    	System.out.println("home page is accessible");
+	    	
+	    	System.out.println("changes made in gitstuff develop");
 	    }
 
 	    @And("^Cards are displayed$")
@@ -59,6 +61,8 @@ public class stepDefinition {
 	    	System.out.println(obj.get(0).get(2));
 	    	System.out.println(obj.get(0).get(3));
 	    	System.out.println(obj.get(0).get(4));
+	    	
+	    	System.out.println("changes made in gitstuff develop branch");
 	    	
 	    }
 	    

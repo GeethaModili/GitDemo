@@ -20,4 +20,9 @@ public class AppTest
         
         System.out.println("made changes by gitstuff guy");
     }
+    
+    public void NewBranchGitstuff()
+    {
+    	System.out.println("changes made in gitstuff develop branch");
+    }
 }
