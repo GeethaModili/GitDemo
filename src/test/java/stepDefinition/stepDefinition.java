@@ -17,6 +17,11 @@ public class stepDefinition {
 	    public void user_is_on_netbanking_landing_page() throws Throwable 
 	    {
 	      System.out.println("navigated to netbanking page");
+	      
+	      
+	      System.out.println("xfgvdfgds");
+	      System.out.println("2nd line in develop branch");
+	      System.out.println("3rd line in develop branch");
 	    }
 
 	 @When("^User login into application with username \"([^\"]*)\" and password \"([^\"]*)\"$")
@@ -24,6 +29,8 @@ public class stepDefinition {
 	 	{
 	    	System.out.println(strArg1);
 	    	System.out.println(strArg2);
+	    	//
+	    	System.out.println("another change in develop branch");
 	    }
 
 	    @Then("^Home page is populated$")
